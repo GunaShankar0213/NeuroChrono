@@ -1,6 +1,6 @@
-# Neuro-Metric --- Hybrid Morphometry Engine for Clinical Trial Enrichment
+# Neuro-Chrono --- Morphometry Engine for Clinical Trial Enrichment
 
-Neuro-Metric is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
+Neuro-Chrono is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
 
 It combines diffeomorphic registration, deterministic morphometry, and constrained medical AI reasoning to produce clinically interpretable and scientifically defensible outputs.
 
@@ -26,11 +26,11 @@ View this : [Click this](https://drive.google.com/file/d/1n6hJoikn59r0rQjagH6NwO
 <img width="2816" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/935dcde5-e4be-459c-9939-41d391302aec" />
 
 
-Neuro-Metric consists of three integrated modules:
+Neuro-Chrono consists of three integrated modules:
 
 | Module   | Name                                     | Role                                                            |
 | -------- | ---------------------------------------- | --------------------------------------------------------------- |
-| Module 1 | Hybrid Morphometry Engine                | Computes voxel-level Difference Map (Jacobian Map)              |
+| Module 1 | Hybrid Morphometry Engine                | Computes voxel-level Difference Map (Jacobian Map) [DL/ANTs Syn]|
 | Module 2 | Quantitative + MedGemma Reasoning Engine | Converts morphometry into explainable progression metrics       |
 | Module 3 | Clinical Trial Enrichment Dashboard      | Provides visualization, reports, and trial eligibility insights |
 
@@ -163,7 +163,7 @@ Constrained explainable AI output.
 
 # Scientific Basis
 
-Neuro-Metric uses Jacobian determinant analysis, a well-established method in computational neuroanatomy for measuring local volume change.
+Neuro-Chrono uses Jacobian determinant analysis, a well-established method in computational neuroanatomy for measuring local volume change.
 
 Applications include:
 
@@ -212,7 +212,7 @@ Total pipeline runtime: 12--18 minutes
 # Repository Structure
 
 ```
-NeuroMetric/
+NeuroChrono/
 │
 ├── Modules/          # Core processing modules (Module-1, Module-2)
 ├── backend/          # Pipeline orchestration, session management, APIs
@@ -229,7 +229,7 @@ NeuroMetric/
 
 # Summary
 
-Neuro-Metric combines transformer-based deformable registration,
+Neuro-Chrono combines transformer-based deformable registration,
 deterministic morphometry, and constrained medical AI to produce
 explainable clinical trial enrichment insights.
 
