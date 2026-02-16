@@ -1,27 +1,56 @@
 # Neuro-Metric --- Hybrid Morphometry Engine for Clinical Trial Enrichment
 
-Neuro-Metric is a hybrid physics-guided and transformer-based
-morphometry system that converts longitudinal MRI scans into explainable
-fast-progressor classifications for Alzheimer's clinical trial
-enrichment.
+Neuro-Metric is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
+
+It combines diffeomorphic registration, deterministic morphometry, and constrained medical AI reasoning to produce clinically interpretable and scientifically defensible outputs.
+
+"The core technology—"3D Longitudinal Registration + MedGemma Difference Analysis"—works for any solid organ that changes shape over time."
 
 View this : [Click this](https://drive.google.com/file/d/1n6hJoikn59r0rQjagH6NwOm5yufmgtcj/view?usp=sharing)
 
 ------------------------------------------------------------------------
 
+# Key Features
+
+• Clinical-grade deformable registration using ANTs SyN
+• Jacobian determinant-based morphometry (scientific gold standard)
+• Deterministic ROI quantification and Z-score normalization
+• Constrained MedGemma medical reasoning (non-hallucinatory)
+• Fast-progressor classification for clinical trial enrichment
+• Explainable outputs with numeric and visual evidence
+• Fully automated end-to-end pipeline
+
+------------------------------------------------------------------------
 # System Overview
 
 <img width="2816" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/935dcde5-e4be-459c-9939-41d391302aec" />
 
 
-Neuro-Metric consists of three modules:
+Neuro-Metric consists of three integrated modules:
 
-1.  Hybrid Morphometry Engine
-2.  Quantitative + MedGemma Reasoning Engine
-3.  Clinical Trial Enrichment Dashboard
+| Module   | Name                                     | Role                                                            |
+| -------- | ---------------------------------------- | --------------------------------------------------------------- |
+| Module 1 | Hybrid Morphometry Engine                | Computes voxel-level Difference Map (Jacobian Map)              |
+| Module 2 | Quantitative + MedGemma Reasoning Engine | Converts morphometry into explainable progression metrics       |
+| Module 3 | Clinical Trial Enrichment Dashboard      | Provides visualization, reports, and trial eligibility insights |
 
 How to run : [watch this](https://drive.google.com/file/d/1TpV_rDFbbnlVLTzDZ6GkFZLwIjX6KxKj/view?usp=sharing)
 ------------------------------------------------------------------------
+
+# Installation
+
+## 1. Clone repository
+
+```bash
+git clone https://github.com/GunaShankar0213/NeuroChorno.git
+cd NeuroChorno
+```
+
+## 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 # MODULE 1 --- Hybrid Morphometry Engine
 
@@ -132,6 +161,16 @@ Constrained explainable AI output.
 
 <img width="1890" height="1025" alt="dashboard" src="https://github.com/user-attachments/assets/b146ae3e-d707-4d11-a57a-75cfb3cde1d0" />
 
+# Scientific Basis
+
+Neuro-Metric uses Jacobian determinant analysis, a well-established method in computational neuroanatomy for measuring local volume change.
+
+Applications include:
+
+• Alzheimer's disease progression analysis
+• Neurodegeneration research
+• Clinical morphometry
+• Clinical trial recruitment
 
 ## Features
 
@@ -196,11 +235,28 @@ explainable clinical trial enrichment insights.
 
 ------------------------------------------------------------------------
 
-Known Issues:
-1) Skull-stripping affine metric warnings (NCC, Dice)
-Occur due to irregular cropping boundaries affecting affine alignment metrics. This will be addressed by implementing a standardized fixed crop ratio.
-2) MedGemma 1.5 FP16 inference latency
-Inference is slower under FP16 on limited hardware due to high token generation frequency and compute overhead. This is a resource-bound performance limitation.
-3) Visualization mismatch warnings
-Minor visual inconsistencies may arise from image loading and encoding precision. Integration of MedSigLIP is planned to improve visual embedding accuracy and alignment fidelity.
+# Known Limitations
+
+1. Skull-stripping affine metric warnings may occur due to irregular cropping.
+2. MedGemma inference latency depends on hardware availability.
+3. Visualization precision depends on input image resolution.
+
+------------------------------------------------------------------------
+# Future Enhancements:
+- The "Liver-Chrono" (Oncology)
+- The "Lung-Chrono" (Fibrosis)
+- The "Kidney-Chrono" (PKD)
+
+# License
+
+MIT License
+
+---
+
+# Author
+
+Guna Shankar S
+Gen Ai Engineer
+
+
 
