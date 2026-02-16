@@ -1,4 +1,4 @@
-# Neuro-Chrono --- Morphometry Engine for Clinical Trial Enrichment
+# Neuro-Chrono - Morphometry Engine for Clinical Trial Enrichment
 
 Neuro-Chrono is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
 
