@@ -25,3 +25,5 @@ Key issues:
 2. only nifti files allowed.
 3. install all requirements.txt
 4. Wacth the demo technical walkthrough.
+
+**This is not able to host, as clinical trial enforces the privacy designed to run in local enviroment.**
