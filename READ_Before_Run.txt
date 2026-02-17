@@ -1,0 +1,27 @@
+start this server : 
+    uvicorn api:app --reload (This helps to fetch the local files in Next Js and start the backend)
+    after few seconds open --> http://127.0.0.1:8000/docs#/default/run_pipeline_run_pipeline_post
+
+To start the app:
+    cd neuro_metric> npm run dev (Dashboard Metric viewer)
+              
+
+Parameter	    Type	    Required	    Description
+session_dir	    Path        Yes             Root folder of the session (front end)
+age	            int     	Yes	            Patient age
+sex	            str	        Yes	            "M" or "F"
+interval_days	float	    Yes	            Days between T0 and T1 scan
+
+
+You provide only:
+    T0.nii.gz
+    T1.nii.gz
+    age
+    sex
+    interval_days
+
+Key issues: 
+1. Setup the Medgemma 1.5 in model_store , in local before starting.
+2. only nifti files allowed.
+3. install all requirements.txt
+4. Wacth the demo technical walkthrough.
