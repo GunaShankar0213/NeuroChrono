@@ -256,7 +256,7 @@ MIT License
 # Author
 
 Guna Shankar S
-Gen Ai Engineer
+
 
 ------------------------------------------------------------------------
 # Citations
