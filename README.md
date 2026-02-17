@@ -1,6 +1,6 @@
-# Neuro-Chrono - Morphometry Engine for Clinical Trial Enrichment
+# NeuroChrono - Morphometry Engine for Clinical Trial Enrichment
 
-Neuro-Chrono is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
+NeuroChrono is a hybrid physics-guided and transformer-inspired morphometry system that converts longitudinal brain MRI scans into explainable, quantitative progression metrics and fast-progressor classifications for Alzheimer's clinical trial enrichment.
 
 It combines diffeomorphic registration, deterministic morphometry, and constrained medical AI reasoning to produce clinically interpretable and scientifically defensible outputs.
 
@@ -23,10 +23,9 @@ View this : [Click this](https://drive.google.com/file/d/1n6hJoikn59r0rQjagH6NwO
 ------------------------------------------------------------------------
 # System Overview
 
-<img width="2816" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/935dcde5-e4be-459c-9939-41d391302aec" />
+![architecture](https://github.com/user-attachments/assets/c07dcd1f-c56f-4a04-825b-107a85efee60)
 
-
-Neuro-Chrono consists of three integrated modules:
+NeuroChrono consists of three integrated modules:
 
 | Module   | Name                                     | Role                                                            |
 | -------- | ---------------------------------------- | --------------------------------------------------------------- |
@@ -163,7 +162,7 @@ Constrained explainable AI output.
 
 # Scientific Basis
 
-Neuro-Chrono uses Jacobian determinant analysis, a well-established method in computational neuroanatomy for measuring local volume change.
+NeuroChrono uses Jacobian determinant analysis, a well-established method in computational neuroanatomy for measuring local volume change.
 
 Applications include:
 
@@ -229,7 +228,7 @@ NeuroChrono/
 
 # Summary
 
-Neuro-Chrono combines transformer-based deformable registration,
+NeuroChrono combines transformer-based deformable registration,
 deterministic morphometry, and constrained medical AI to produce
 explainable clinical trial enrichment insights.
 
